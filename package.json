@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-fundamentals-assignment",
+  "version": "1.0.0",
+  "description": "Week 1 MongoDB assignment for PLP MERN Stack Development",
+  "main": "insert_books.js",
+  "scripts": {
+    "insert": "node insert_books.js",
+    "queries": "node queries.js",
+    "setup": "npm install && node insert_books.js",
+    "test": "node insert_books.js && node queries.js"
+  },
+  "keywords": [
+    "mongodb",
+    "database",
+    "crud",
+    "aggregation",
+    "indexing",
+    "plp"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
